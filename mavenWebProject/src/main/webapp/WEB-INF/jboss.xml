@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+ 
+<jboss xmlns:xs="http://www.jboss.org/j2ee/schema"
+       xs:schemaLocation="http://www.jboss.org/j2ee/schema jboss_5_0.xsd"
+             version="5.0"> 
+   <enterprise-beans>
+      <session>
+         <ejb-name>StudentManager</ejb-name>
+         <jndi-name>com.tm.ejb.StudentManagerRemote</jndi-name>
+         <local-jndi-name>com.tm.ejb.StudentManager</local-jndi-name>
+         <Remote-jndi-name>com.tm.ejb.StudentManager</Remote-jndi-name>
+      </session>
+      <session>
+         <ejb-name>CourseManager</ejb-name>
+         <jndi-name>com.tm.ejb.CourseManagerRemote</jndi-name>
+         <local-jndi-name>com.tm.ejb.CourseManager</local-jndi-name>
+         <Remote-jndi-name>com.tm.ejb.CourseManager</Remote-jndi-name>
+      </session>
+      <session>
+         <ejb-name>RegistrationManager</ejb-name>
+         <jndi-name>com.tm.ejb.RegistrationManagerRemote</jndi-name>
+         <local-jndi-name>com.tm.ejb.RegistrationManager</local-jndi-name>
+         <Remote-jndi-name>com.tm.ejb.RegistrationManager</Remote-jndi-name>
+      </session>
+   </enterprise-beans>
+</jboss>
